@@ -11,3 +11,7 @@
 /Users/tedwu/Desktop/Game Studio/FirstSteps/New Unity Project/Temp/bin/Debug/Unity.CecilTools.dll
 /Users/tedwu/Desktop/Game Studio/FirstSteps/New Unity Project/Temp/bin/Debug/Mono.Cecil.Pdb.dll
 /Users/tedwu/Desktop/Game Studio/FirstSteps/New Unity Project/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/tedwu/Desktop/Game Studio/FirstSteps/New Unity Project/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/tedwu/Desktop/Game Studio/FirstSteps/New Unity Project/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/tedwu/Desktop/Game Studio/FirstSteps/New Unity Project/obj/Debug/Assembly-CSharp.dll
+/Users/tedwu/Desktop/Game Studio/FirstSteps/New Unity Project/obj/Debug/Assembly-CSharp.dll.mdb
