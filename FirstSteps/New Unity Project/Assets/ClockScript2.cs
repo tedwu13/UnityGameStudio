@@ -5,13 +5,6 @@ using System;
 public class ClockScript2 : MonoBehaviour {
 
 	public GameObject _secondHand, _minuteHand, _hourHand;
-	// Use this for initialization
-	void Start () {
-		_hourHand = GameObject.Find("HourHand");
-		_minuteHand = GameObject.Find("MinuteHand");
-		_secondHand = GameObject.Find("SecondHand");
-//		Debug.Log(string.Format("Start called at {0} seconds", Time.time));
-	}
 
 	private void RotateByFraction(GameObject obj, float fraction) {
 		Transform transform = obj.GetComponent<Transform>();
