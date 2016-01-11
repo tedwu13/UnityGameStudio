@@ -101,9 +101,8 @@ public class Fractal : MonoBehaviour {
 
 	private void Update () {
 		transform.Rotate(0f, rotationSpeed * Time.deltaTime, 0f);
-		// New changes and twists
-//		transform.TransformDirection(Vector3.up);
-//		transform.TransformDirection(Vector3.left);
+		transform.TransformDirection(Vector3.up);
+		transform.TransformDirection(Vector3.left);
 
 	}
 }
