@@ -90,9 +90,7 @@ public class Fractal : MonoBehaviour {
 		depth = parent.depth + 1;
 		childScale = parent.childScale;
 		transform.parent = parent.transform;
-
 		spawnProbability = parent.spawnProbability;
-
 		maxRotationSpeed = parent.maxRotationSpeed;
 		maxTwist = parent.maxTwist;
 		transform.localScale = Vector3.one * childScale;
@@ -103,5 +101,9 @@ public class Fractal : MonoBehaviour {
 
 	private void Update () {
 		transform.Rotate(0f, rotationSpeed * Time.deltaTime, 0f);
+		// New changes and twists
+//		transform.TransformDirection(Vector3.up);
+//		transform.TransformDirection(Vector3.left);
+
 	}
 }
